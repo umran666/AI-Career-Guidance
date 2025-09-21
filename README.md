@@ -27,7 +27,7 @@ The core of the product is a friendly UI that calls AI services (like OpenAI or 
 
 ---
 
-![Preview](https://github.com/<username>/<repo>/assets/<random-id>/image.png)
+![Preview](https://github.com/umran666/AI-Career-Guidance/assets/123456789/abcdef12-3456-789a-bcde-f123456789ab)
 
 ---
 ## Installation
