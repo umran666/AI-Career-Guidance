@@ -27,7 +27,7 @@ The core of the product is a friendly UI that calls AI services (like OpenAI or 
 
 ---
 
-![Alt Text](App Preview.png)
+![App Preview](App-Preview.png)
 
 
 ---
