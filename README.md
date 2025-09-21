@@ -26,9 +26,9 @@ The core of the product is a friendly UI that calls AI services (like OpenAI or 
 - **Optional:** React Router for navigation, react-query for data fetching  
 
 ---
+# Project Preview
 
 ![App Preview](App-Preview.png)
-
 
 ---
 ## Installation
