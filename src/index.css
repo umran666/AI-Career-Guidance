@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-blobs {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+	pointer-events: none;
+}
+.bg-blob {
+	position: absolute;
+	filter: blur(48px);
+	opacity: 0.28;
+	transform-origin: center;
+}
+
+.glass-card {
+	background: rgba(255,255,255,0.04);
+	backdrop-filter: blur(8px) saturate(1.1);
+	border: 1px solid rgba(255,255,255,0.06);
+}
+
+.smooth-transition {
+	transition: all 220ms cubic-bezier(.2,.9,.2,1);
+}
+
+@keyframes hop {
+	0% { transform: translateY(0); }
+	30% { transform: translateY(-10px) scale(1.03); }
+	60% { transform: translateY(2px) scale(0.99); }
+	100% { transform: translateY(0); }
+}
+
+.logo-hop {
+	display: inline-block;
+	transition: transform 220ms cubic-bezier(.2,.9,.2,1);
+}
+.logo-hop:hover {
+	animation: hop 520ms ease;
+}
+
+
+.logo-hop svg,
+.logo-hop svg * {
+	
+		 
+	stroke: currentColor !important;
+	stroke-width: var(--logo-stroke, 1.6) !important;
+	stroke-linecap: round !important;
+	stroke-linejoin: round !important;
+	fill: none !important; 
+}
+.logo-hop svg {
+	color: inherit;
+	filter: drop-shadow(0 4px 10px rgba(2,6,23,0.5));
+}
+
+.logo-primary {
+	color: #ffffff; 
+}
+.logo-muted {
+	color: rgba(255,255,255,0.8);
+}
+
+.logo-stroke-05 { --logo-stroke: 0.5; }
+.logo-stroke-08 { --logo-stroke: 0.8; }
+.logo-stroke-1 { --logo-stroke: 1; }
+.logo-stroke-16 { --logo-stroke: 1.6; }
+.logo-stroke-2 { --logo-stroke: 2; }
+.logo-stroke-3 { --logo-stroke: 3; }
+.logo-stroke-4 { --logo-stroke: 4; }
+
+.logo-fill svg,
+.logo-fill svg * {
+	fill: currentColor !important;
+}
