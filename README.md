@@ -27,6 +27,9 @@ The core of the product is a friendly UI that calls AI services (like OpenAI or 
 
 ---
 
+![Preview](https://github.com/<username>/<repo>/assets/<random-id>/image.png)
+
+---
 ## Installation
 
 ```bash
@@ -41,4 +44,5 @@ npm install
 npm run dev
 
 Open the link shown in the terminal (usually http://localhost:5173).
+
 
